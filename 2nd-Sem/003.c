@@ -31,3 +31,9 @@ void func(struct student *record){
     printf("Name is: %s \n ", record->name); 
     printf(" Percentage is : %f", record->percentage); 
 }
+
+
+// Output 
+//  Id is : 1 
+//  Name is: Raju 
+//   Percentage is : 86.500000
