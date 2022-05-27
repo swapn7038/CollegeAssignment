@@ -13,12 +13,22 @@ int main(){
     scanf("%d",&r);
     printf("Enter the number of columns");
     scanf("%d",&c);
-    printf("Enter the first matrix element=\n");
+    printf("Enter the first matrix element : \n");
 
     for(i=0;i<r;r++)
      {
          for(j=0;j<c;j++){
              scanf("%d",&a[i][j]);
+         }
+     }
+
+    //  
+    printf("Enter the second matrix element : \n");
+
+    for(i=0;i<r;r++)
+     {
+         for(j=0;j<c;j++){
+             scanf("%d",&b[i][j]);
          }
      }
 
