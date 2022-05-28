@@ -1,5 +1,5 @@
-// program to traverse a aray
-
+// program to traverse a aray ✔✔✔✔✔
+ 
 /*
 #include<stdio.h>
 void main(){

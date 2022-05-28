@@ -1,5 +1,32 @@
-// Pforgram to find prime number or not
 
+// my program ✔✔✔✔✔
+
+#include<stdio.h>
+int main(){
+  int num,i,flag=0;
+
+  printf("Enter any no.");
+  scanf("%d",&num);
+  
+  for(i=2;i<num/2;i++){
+     if(num%i==0){
+       flag=1;
+       break;
+     }
+         
+  }
+
+   if(flag==0){
+          printf("This is a prime number\n");
+     }
+     else{
+       printf("This is not a prime number\n");
+     }
+}
+
+
+// Pforgram to find prime number or not
+/*
 
 #include <stdio.h>
 
@@ -32,7 +59,7 @@ int main() {
 
   return 0;
 }
-
+*/
 // Raference 
 // https://www.simplilearn.com/tutorials/c-tutorial/c-program-for-prime-numbers
 
@@ -101,3 +128,13 @@ int main() {
 //     }
 //     return 0;
 // }
+
+
+
+
+
+
+
+
+
+
